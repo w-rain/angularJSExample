@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>angular-coding</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">W-Rain Angular World</a>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<div class="content">
+
+<div ng-view></div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="widget">
+                    <h4 class="title">友情链接</h4>
+                    <div class="friend-links">
+                    <a href="https://developer.mozilla.org/zh-CN/" title="MDN中文网"  target="_blank">MDN中文网</a>
+                        <a href="http://www.bootcss.com/" title="Bootstrap中文网"     target="_blank">Bootstrap中文网</a>
+                        <a href="http://www.apjs.net/#dir1" title="AngularJS中文网"   target="_blank">AngularJS中文网</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="widget">
+                    <h4 class="title">技术栈</h4>
+                    <div class="tag-cloud">
+                    <a href="https://angularjs.org/" title="AngularJS官网"  target="_blank">AngularJS</a>
+                        <a href="http://www.bootcss.com/" title="Bootstrap中文网"  target="_blank">Bootstrap</a>
+                        <a href="http://www.bootcdn.cn/" title="BootCDN"  target="_blank">BootCDN</a>
+                        <a href="http://www.jquery123.com/" title="jQuery中文文档"  target="_blank">jQuery</a>
+                        <a href="http://lodashjs.com/" title="lodash中文网"  target="_blank">Lodash</a>
+                        <a href="http://www.gulpjs.com.cn/" title="Gulp中文网"  target="_blank">Gulp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="widget">
+                    <h4 class="title">@个人链接</h4>
+                    <div class="friend-links">
+                        <a href="https://github.com/w-rain" title="我的GitHub地址" target="_blank">GitHub</a>
+                        <a href="http://my.oschina.net/myrainspace" title="我的osChina博客"  target="_blank">OSChina.NET</a>
+                        <a href="https://twitter.com/wyrain3" title="我的Twitter"  target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Copyright © <a href="http://expo.bootcss.com">w-rain</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.5.7/angular-route.js"></script>
+<script src="js/app.js" type="text/javascript"></script>
+
+</body>
+</html>
