@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>todos</title>
+		<link href="js/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/todo.css" />
+		<script type="text/javascript" src="js/libs/angular.min.js" ></script>
+		<script type="text/javascript" src="js/modules/todo.js" ></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<h2>Todo</h2>
+		<div ng-controller="TodoListController as todoList">
+			<span>{{todoList.remaining()}} of {{todoList.todos.length}} remaining</span>
+			[<a href="" ng-click="todoList.archive()">archive</a>]
+			<ul class="unstyled">
+				<li ng-repeat="todo in todoList.todos">
+					<label class="checkbox">
+						<input type="checkbox" ng-model="todo.done" />
+						<span class="done-{{todo.done}}">{{todo.text}}</span>
+					</label>
+				</li>
+			</ul>
+			<form ng-submit="todoList.addTodo()" class="form-inline">
+				<input class="form-control" type="text"  ng-model="todoList.todoText" size="30" placeholder="add new todo here" />
+				<input class="btn btn-primary" type="submit" value="add">
+			</form>
+		</div>
+		</div>
+	</body>
+
+</html>
