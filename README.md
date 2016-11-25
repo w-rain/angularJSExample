@@ -1,4 +1,5 @@
-# angularJSExample
-These are some examples for me  practise during the time of learning AngularJS。
-
-1.第一个例子在w-rain-angular-route分支上，有关angular 路由实现的一个小例子。
+# angularjs locale 
+## description
+* 有关angular 路由、内置指令、component组件化、以及firebase应用等相关知识的例子。
+  主要功能是应用不同的国际化配置文件来加载相应的国际化语言和信息。
+  
