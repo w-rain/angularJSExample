@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>locale</title>
+		<link rel="stylesheet" href="js/libs/bootstrap/css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/libs/angular.min.js"></script>
+		<script type="text/javascript" src="js/libs/i18n/angular-locale_zh-cn.js"></script>
+		<script type="text/javascript" src="js/modules/component.js"></script>
+		<script type="text/javascript" src="js/modules/locale.js"></script>
+
+	</head>
+
+	<body>
+		<div class="container">
+			<tabs>
+				<pane title="Localization">
+					<span>Date: {{ '2016-11-24' | date:'fullDate' }}</span><br>
+					<span>Currency: {{ 123456 | currency }}</span><br>
+					<span>Number: {{ 98765.4321 | number }}</span><br>
+				</pane>
+				<pane title="Pluralization">
+					<div ng-controller="BeerCounter">
+						<div ng-repeat="beerCount in beers">
+							<ng-pluralize count="beerCount" when="beerForms"></ng-pluralize>
+						</div>
+					</div>
+				</pane>
+			</tabs>
+		</div>
+	</body>
+
+</html>
