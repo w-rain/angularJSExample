@@ -5,6 +5,6 @@
 ## details
 
 1. 在w-rain-angular-route分支上，有关angular 路由实现的一个小例子。
-2. 在w-rain-angular-todos分支上，有关angular 内置指令实现的一个列表的新增和删除列表信息的例子。
+2. 在w-rain-todos分支上，有关angular 内置指令实现的一个列表的新增和删除列表信息的例子。
 3. 在w-rain-angular-locale分支上，有关angular 路由、国际化和component组件化有关知识的例子。
-4. 在w-rain-bookmark分支上，有关angular 路由、内置指令、以及firebase应用等相关知识的例子。
+4. 在w-rain-angular-component分支上，有关angular 路由、内置指令、component组件化、以及firebase应用等相关知识的例子。
