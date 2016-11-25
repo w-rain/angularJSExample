@@ -1,0 +1,111 @@
+
+.content{
+	    margin: 120px 0;
+}
+.more{
+	padding: 40px 15px;
+    text-align: center;
+}
+
+.more .back{
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.details{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.footer{
+	background: #202020;
+    padding: 35px 0 0;
+    color: #959595;
+}
+
+.footer .widget{
+	padding: 0 30px;
+}
+
+.footer .widget a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+.footer .widget .title{
+	color: #fff;
+    border-bottom: 1px solid #303030;
+}
+
+.footer .widget .tag-cloud a{
+	border: 1px solid #303030;
+}
+
+.footer .widget .tag-cloud a:hover{
+	background-color: #337ab7;
+}
+
+.widget{
+	margin-bottom:0 30px;
+}
+
+.widget .title{
+	margin-top: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.widget .title:after{
+	content: "";
+    width: 90px;
+    height: 1px;
+    background: #337ab7;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.widget .friend-links a{
+	display: block;
+    border-bottom: 1px dashed #303030;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    color: #959595;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.widget .tag-cloud a{
+	border: 1px solid #ebebeb;
+    padding: 2px 7px;
+    color: #959595;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.copyright{
+	background: #111;
+    font-size: 13px;
+    text-align: center;
+    color: #555;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    border-top: 1px solid #303030;
+}
+
+.copyright span{
+	margin: 0 .5em;
+}
+
+.copyright a{
+	color: #555;
+}
