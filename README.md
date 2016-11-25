@@ -32,6 +32,14 @@
 * shuang_lang_shuo（由破狼、雪狼等人维护）
 * ThoughtWorks（思特沃克软件技术有限公司）
 
+###　推荐网站
+
+* [AngularJS中文网](http://www.apjs.net/)
+
+* [AngularJS官网](https://angular.cn/) （主要介绍AngularJS2）
+
+* [AngularUI](http://angular-ui.github.io/)
+
 ### 推荐学习书籍
 * 用AngularJS开发下一代web应用
 ![515wmyxameL icon](https://images-cn.ssl-images-amazon.com/images/I/515wmyxameL.jpg)
