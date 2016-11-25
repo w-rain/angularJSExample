@@ -40,6 +40,18 @@
 
 * [AngularUI](http://angular-ui.github.io/)
 
+* [Bootstrap中文网](http://www.bootcss.com/)
+
+* [Font Awesome Icons](http://fontawesome.io/icons/)
+
+* [RequireJS](http://requirejs.org/)
+
+* [Gulp.js](http://www.gulpjs.com.cn/)
+
+* [Node.js 中文网](http://nodejs.cn/)
+
+
+
 ### 推荐学习书籍
 * 用AngularJS开发下一代web应用
 ![515wmyxameL icon](https://images-cn.ssl-images-amazon.com/images/I/515wmyxameL.jpg)
